@@ -1,0 +1,12 @@
+D:\Projects\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.exe.config
+D:\Projects\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.exe
+D:\Projects\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.pdb
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.AssemblyReference.cache
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.MakeReservationForm.resources
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.Properties.Resources.resources
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.GenerateResource.cache
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.CoreCompileInputs.cache
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.exe
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.pdb
+D:\Projects\Photograghy-Shop-SW\Photography Shop\bin\Debug\Oracle.DataAccess.dll
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.CopyComplete
