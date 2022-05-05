@@ -41,6 +41,7 @@ namespace Photography_Shop
             this.genderLabel = new System.Windows.Forms.Label();
             this.age = new System.Windows.Forms.TextBox();
             this.agelabel = new System.Windows.Forms.Label();
+            this.Backbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // clientID
@@ -55,6 +56,7 @@ namespace Photography_Shop
             // clientIdLabel
             // 
             this.clientIdLabel.AutoSize = true;
+            this.clientIdLabel.BackColor = System.Drawing.Color.Transparent;
             this.clientIdLabel.Location = new System.Drawing.Point(31, 38);
             this.clientIdLabel.Name = "clientIdLabel";
             this.clientIdLabel.Size = new System.Drawing.Size(58, 17);
@@ -93,6 +95,7 @@ namespace Photography_Shop
             // PhoneNumberLabel
             // 
             this.PhoneNumberLabel.AutoSize = true;
+            this.PhoneNumberLabel.BackColor = System.Drawing.Color.Transparent;
             this.PhoneNumberLabel.Location = new System.Drawing.Point(432, 140);
             this.PhoneNumberLabel.Name = "PhoneNumberLabel";
             this.PhoneNumberLabel.Size = new System.Drawing.Size(103, 17);
@@ -102,7 +105,8 @@ namespace Photography_Shop
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(31, 93);
+            this.nameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.nameLabel.Location = new System.Drawing.Point(40, 91);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(49, 17);
             this.nameLabel.TabIndex = 7;
@@ -111,6 +115,7 @@ namespace Photography_Shop
             // emailLabel
             // 
             this.emailLabel.AutoSize = true;
+            this.emailLabel.BackColor = System.Drawing.Color.Transparent;
             this.emailLabel.Location = new System.Drawing.Point(438, 45);
             this.emailLabel.Name = "emailLabel";
             this.emailLabel.Size = new System.Drawing.Size(97, 17);
@@ -120,7 +125,8 @@ namespace Photography_Shop
             // genderLabel
             // 
             this.genderLabel.AutoSize = true;
-            this.genderLabel.Location = new System.Drawing.Point(461, 94);
+            this.genderLabel.BackColor = System.Drawing.Color.Transparent;
+            this.genderLabel.Location = new System.Drawing.Point(479, 96);
             this.genderLabel.Name = "genderLabel";
             this.genderLabel.Size = new System.Drawing.Size(56, 17);
             this.genderLabel.TabIndex = 9;
@@ -136,11 +142,22 @@ namespace Photography_Shop
             // agelabel
             // 
             this.agelabel.AutoSize = true;
-            this.agelabel.Location = new System.Drawing.Point(31, 135);
+            this.agelabel.BackColor = System.Drawing.Color.Transparent;
+            this.agelabel.Location = new System.Drawing.Point(56, 135);
             this.agelabel.Name = "agelabel";
             this.agelabel.Size = new System.Drawing.Size(33, 17);
             this.agelabel.TabIndex = 11;
             this.agelabel.Text = "Age";
+            // 
+            // Backbtn
+            // 
+            this.Backbtn.Location = new System.Drawing.Point(650, 492);
+            this.Backbtn.Name = "Backbtn";
+            this.Backbtn.Size = new System.Drawing.Size(120, 49);
+            this.Backbtn.TabIndex = 12;
+            this.Backbtn.Text = "Back";
+            this.Backbtn.UseVisualStyleBackColor = true;
+            this.Backbtn.Click += new System.EventHandler(this.Backbtn_Click);
             // 
             // SelectUserFormcs
             // 
@@ -149,6 +166,7 @@ namespace Photography_Shop
             this.BackgroundImage = global::Photography_Shop.Properties.Resources.MakeReservationBackGround;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(782, 553);
+            this.Controls.Add(this.Backbtn);
             this.Controls.Add(this.agelabel);
             this.Controls.Add(this.age);
             this.Controls.Add(this.genderLabel);
@@ -184,5 +202,6 @@ namespace Photography_Shop
         private System.Windows.Forms.Label genderLabel;
         private System.Windows.Forms.TextBox age;
         private System.Windows.Forms.Label agelabel;
+        private System.Windows.Forms.Button Backbtn;
     }
 }

@@ -11,3 +11,5 @@ D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.pdb
 D:\Projects\Photograghy-Shop-SW\Photography Shop\bin\Debug\Oracle.DataAccess.dll
 D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.CopyComplete
 D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.SelectUserFormcs.resources
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.Menu.resources
+D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.TakeReservationform.resources

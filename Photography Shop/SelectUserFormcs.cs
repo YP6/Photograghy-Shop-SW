@@ -68,5 +68,10 @@ namespace Photography_Shop
         {
             conn.Dispose();
         }
+
+        private void Backbtn_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -48,6 +48,7 @@ namespace Photography_Shop
             // ClientIdLabel
             // 
             this.ClientIdLabel.AutoSize = true;
+            this.ClientIdLabel.BackColor = System.Drawing.Color.Transparent;
             this.ClientIdLabel.Location = new System.Drawing.Point(176, 124);
             this.ClientIdLabel.Name = "ClientIdLabel";
             this.ClientIdLabel.Size = new System.Drawing.Size(60, 17);
@@ -64,6 +65,7 @@ namespace Photography_Shop
             // datelabel
             // 
             this.datelabel.AutoSize = true;
+            this.datelabel.BackColor = System.Drawing.Color.Transparent;
             this.datelabel.Location = new System.Drawing.Point(187, 203);
             this.datelabel.Name = "datelabel";
             this.datelabel.Size = new System.Drawing.Size(38, 17);
@@ -72,17 +74,18 @@ namespace Photography_Shop
             // 
             // btn_insert
             // 
+            this.btn_insert.BackColor = System.Drawing.Color.Transparent;
             this.btn_insert.Location = new System.Drawing.Point(329, 287);
             this.btn_insert.Name = "btn_insert";
             this.btn_insert.Size = new System.Drawing.Size(89, 40);
             this.btn_insert.TabIndex = 4;
             this.btn_insert.Text = "Insert";
-            this.btn_insert.UseVisualStyleBackColor = true;
+            this.btn_insert.UseVisualStyleBackColor = false;
             this.btn_insert.Click += new System.EventHandler(this.btn_insert_Click);
             // 
             // back_btn
             // 
-            this.back_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.back_btn.BackColor = System.Drawing.Color.Transparent;
             this.back_btn.Location = new System.Drawing.Point(641, 489);
             this.back_btn.Name = "back_btn";
             this.back_btn.Size = new System.Drawing.Size(129, 52);

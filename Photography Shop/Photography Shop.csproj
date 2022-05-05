@@ -56,6 +56,12 @@
     <Compile Include="MakeReservationForm.Designer.cs">
       <DependentUpon>MakeReservationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectUserFormcs.cs">
@@ -64,8 +70,17 @@
     <Compile Include="SelectUserFormcs.Designer.cs">
       <DependentUpon>SelectUserFormcs.cs</DependentUpon>
     </Compile>
+    <Compile Include="TakeReservationform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeReservationform.Designer.cs">
+      <DependentUpon>TakeReservationform.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MakeReservationForm.resx">
       <DependentUpon>MakeReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +94,9 @@
     </Compile>
     <EmbeddedResource Include="SelectUserFormcs.resx">
       <DependentUpon>SelectUserFormcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeReservationform.resx">
+      <DependentUpon>TakeReservationform.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
