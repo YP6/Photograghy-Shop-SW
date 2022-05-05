@@ -1,0 +1,12 @@
+create or replace PROCEDURE SELECTUSERDATA (id in INTEGER , output out sys_refcursor)AS
+BEGIN
+open output for
+select Name , gender,email,phonenumber,age
+from users
+join clients
+on clients.clientid = users.id
+and users.id = id;
+END SELECTUSERDATA;
+
+
+
