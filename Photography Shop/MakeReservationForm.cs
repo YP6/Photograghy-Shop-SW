@@ -65,5 +65,15 @@ namespace Photography_Shop
             }
 
         }
+
+        private void back_btn_Click(object sender, EventArgs e)
+        {
+            SelectUserFormcs f2 = new SelectUserFormcs();
+            this.Hide();
+            f2.ShowDialog();
+            this.Show();
+          
+            //Application.Run(new SelectUserFormcs());
+        }
     }
 }
