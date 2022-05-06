@@ -28,3 +28,18 @@ D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography 
 D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.pdb
 D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.ViewAllPhotographersForm.resources
 D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.ViewReservationsForm.resources
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.exe.config
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.exe
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.pdb
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.AssemblyReference.cache
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.MakeReservationForm.resources
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.Menu.resources
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.Properties.Resources.resources
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.SelectUserFormcs.resources
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.TakeReservationform.resources
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.ViewAllPhotographersForm.resources
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.ViewReservationsForm.resources
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.GenerateResource.cache
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.CoreCompileInputs.cache
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.exe
+D:\Projects\Photography-shop\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.pdb

@@ -46,22 +46,33 @@ namespace Photography_Shop
 
         private void clientID_SelectedIndexChanged(object sender, EventArgs e)
         {
-            OracleCommand cmd = new OracleCommand();
+           OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = "SelectUserData";
-            cmd.Parameters.Add("clientID", Convert.ToInt32(clientID.SelectedItem.ToString()));
-            cmd.Parameters.Add("out", OracleDbType.RefCursor,ParameterDirection.Output);
-            OracleDataReader dr = cmd.ExecuteReader();
-            while (dr.Read())
+            cmd.CommandText = "selectUserData";
+
+            cmd.Parameters.Add("c_id", Convert.ToInt32(clientID.SelectedItem.ToString()));
+
+            cmd.Parameters.Add("c_name", OracleDbType.Varchar2, 32767).Direction = ParameterDirection.Output;
+            cmd.Parameters.Add("c_gender", OracleDbType.Varchar2 , 32767).Direction = ParameterDirection.Output;
+            cmd.Parameters.Add("c_email", OracleDbType.Varchar2, 32767).Direction = ParameterDirection.Output;
+            cmd.Parameters.Add("c_phone", OracleDbType.Varchar2, 32767).Direction = ParameterDirection.Output;
+            cmd.Parameters.Add("c_age", OracleDbType.Int32, ParameterDirection.Output);
+
+            int done = cmd.ExecuteNonQuery();
+          
+            if (done == -1)
             {
-                name.Text = dr[0].ToString();
-                gender.Text = dr[1].ToString();
-                Emailtxtbox.Text = dr[2].ToString();
-                phoneNumber.Text = dr[3].ToString();
-                age.Text = dr[4].ToString();
+                name.Text = cmd.Parameters["c_name"].Value.ToString();
+                gender.Text = cmd.Parameters["c_gender"].Value.ToString();
+                Emailtxtbox.Text = cmd.Parameters["c_email"].Value.ToString();
+                phoneNumber.Text = cmd.Parameters["c_phone"].Value.ToString();
+                age.Text = cmd.Parameters["c_age"].Value.ToString();
             }
-            dr.Close();
+            else
+            {
+                MessageBox.Show("Something Went wrong please don't cry");
+            }
         }
 
         private void SelectUserFormcs_FormClosed(object sender, FormClosedEventArgs e)
