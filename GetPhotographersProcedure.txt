@@ -1,0 +1,6 @@
+create or replace PROCEDURE GETPHOTOGRAPHERS(Phs out sys_refcursor) AS
+BEGIN
+  OPEN Phs for
+  SELECT * FROM photographers p, users u
+  WHERE u.ID = p.userid;
+END GETPHOTOGRAPHERS;
