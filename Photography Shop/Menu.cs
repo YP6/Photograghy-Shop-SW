@@ -43,6 +43,22 @@ namespace Photography_Shop
 
         private void selectPhotoGrapherInfos_Click(object sender, EventArgs e)
         {
+            ViewAllPhotographersForm f2 = new ViewAllPhotographersForm();
+            Hide();
+            f2.ShowDialog();
+            Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ViewReservationsForm f2 = new ViewReservationsForm();
+            Hide();
+            f2.ShowDialog();
+            Show();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -76,6 +76,18 @@
     <Compile Include="TakeReservationform.Designer.cs">
       <DependentUpon>TakeReservationform.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewAllPhotographersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAllPhotographersForm.Designer.cs">
+      <DependentUpon>ViewAllPhotographersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewReservationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewReservationsForm.Designer.cs">
+      <DependentUpon>ViewReservationsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MakeReservationForm.resx">
       <DependentUpon>MakeReservationForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +109,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TakeReservationform.resx">
       <DependentUpon>TakeReservationform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAllPhotographersForm.resx">
+      <DependentUpon>ViewAllPhotographersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewReservationsForm.resx">
+      <DependentUpon>ViewReservationsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

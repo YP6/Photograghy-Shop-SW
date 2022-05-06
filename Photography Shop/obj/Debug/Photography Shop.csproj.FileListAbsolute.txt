@@ -13,3 +13,18 @@ D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.cspr
 D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.SelectUserFormcs.resources
 D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.Menu.resources
 D:\Projects\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.TakeReservationform.resources
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.exe.config
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.exe
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\bin\Debug\Photography Shop.pdb
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.AssemblyReference.cache
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.MakeReservationForm.resources
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.Menu.resources
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.Properties.Resources.resources
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.SelectUserFormcs.resources
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.TakeReservationform.resources
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.GenerateResource.cache
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.csproj.CoreCompileInputs.cache
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.exe
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography Shop.pdb
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.ViewAllPhotographersForm.resources
+D:\Software Engineer\Photograghy-Shop-SW\Photography Shop\obj\Debug\Photography_Shop.ViewReservationsForm.resources
