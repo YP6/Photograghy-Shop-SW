@@ -1,12 +1,14 @@
-create or replace PROCEDURE SELECTUSERDATA (id in INTEGER , output out sys_refcursor)AS
+create or replace PROCEDURE SELECTUSERDATA
+( c_id IN NUMBER
+, c_name OUT VARCHAR2
+, c_gender OUT VARCHAR2
+, c_phone OUT VARCHAR2
+, c_email OUT VARCHAR2
+, c_age OUT NUMBER
+) AS
 BEGIN
-open output for
-select Name , gender,email,phonenumber,age
-from users
-join clients
-on clients.clientid = users.id
-and users.id = id;
+  SELECT name, gender, email, phonenumber, age
+  INTO c_name, c_gender, c_email, c_phone, c_age
+  FROM users
+  WHERE users.id = c_id;
 END SELECTUSERDATA;
-
-
-
