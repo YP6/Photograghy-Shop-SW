@@ -46,6 +46,7 @@ namespace Photography_Shop
         {
             builder = new OracleCommandBuilder(adapter);
             adapter.Update(ds.Tables[0]);
+            MessageBox.Show("Your Data Has Been Saved", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void ViewButton_Click(object sender, EventArgs e)

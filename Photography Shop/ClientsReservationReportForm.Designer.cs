@@ -47,7 +47,7 @@ namespace crystalReportPhotography
             // DisplayButton
             // 
             this.DisplayButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.DisplayButton.Location = new System.Drawing.Point(0, 479);
+            this.DisplayButton.Location = new System.Drawing.Point(0, 456);
             this.DisplayButton.Name = "DisplayButton";
             this.DisplayButton.Size = new System.Drawing.Size(1006, 33);
             this.DisplayButton.TabIndex = 1;
@@ -59,7 +59,9 @@ namespace crystalReportPhotography
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1006, 512);
+            this.BackgroundImage = global::Photography_Shop.Properties.Resources.MakeReservationBackGround;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1006, 489);
             this.Controls.Add(this.DisplayButton);
             this.Controls.Add(this.ClientsReservationsViewer);
             this.Name = "ClientsReservationReportForm";

@@ -37,7 +37,7 @@ namespace crystalReportPhotography
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(474, 673);
+            this.button1.Location = new System.Drawing.Point(492, 601);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(235, 31);
             this.button1.TabIndex = 0;
@@ -50,16 +50,16 @@ namespace crystalReportPhotography
             this.crystalReportViewer1.ActiveViewIndex = -1;
             this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(12, 144);
+            this.crystalReportViewer1.Location = new System.Drawing.Point(12, 39);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(1196, 523);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1196, 556);
             this.crystalReportViewer1.TabIndex = 1;
             this.crystalReportViewer1.Load += new System.EventHandler(this.crystalReportViewer1_Load);
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(606, 45);
+            this.comboBox1.Location = new System.Drawing.Point(608, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(170, 21);
             this.comboBox1.TabIndex = 3;
@@ -67,7 +67,7 @@ namespace crystalReportPhotography
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(539, 48);
+            this.label1.Location = new System.Drawing.Point(541, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 4;
@@ -79,7 +79,7 @@ namespace crystalReportPhotography
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Photography_Shop.Properties.Resources.MakeReservationBackGround;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1215, 712);
+            this.ClientSize = new System.Drawing.Size(1215, 638);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.button1);
