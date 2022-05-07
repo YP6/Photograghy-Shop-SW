@@ -35,13 +35,15 @@ namespace Photography_Shop
             this.selectPhotoGrapherInfos = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.CrystalReservationReport = new System.Windows.Forms.Button();
+            this.ShiftsReport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // MakeReservation
             // 
             this.MakeReservation.BackColor = System.Drawing.Color.Transparent;
-            this.MakeReservation.Location = new System.Drawing.Point(231, 134);
-            this.MakeReservation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MakeReservation.Location = new System.Drawing.Point(167, 128);
+            this.MakeReservation.Margin = new System.Windows.Forms.Padding(2);
             this.MakeReservation.Name = "MakeReservation";
             this.MakeReservation.Size = new System.Drawing.Size(110, 38);
             this.MakeReservation.TabIndex = 0;
@@ -52,8 +54,8 @@ namespace Photography_Shop
             // takeReservation
             // 
             this.takeReservation.BackColor = System.Drawing.Color.Transparent;
-            this.takeReservation.Location = new System.Drawing.Point(231, 202);
-            this.takeReservation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.takeReservation.Location = new System.Drawing.Point(167, 196);
+            this.takeReservation.Margin = new System.Windows.Forms.Padding(2);
             this.takeReservation.Name = "takeReservation";
             this.takeReservation.Size = new System.Drawing.Size(110, 38);
             this.takeReservation.TabIndex = 1;
@@ -64,8 +66,8 @@ namespace Photography_Shop
             // selectClientInfos
             // 
             this.selectClientInfos.BackColor = System.Drawing.Color.Transparent;
-            this.selectClientInfos.Location = new System.Drawing.Point(231, 258);
-            this.selectClientInfos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.selectClientInfos.Location = new System.Drawing.Point(167, 262);
+            this.selectClientInfos.Margin = new System.Windows.Forms.Padding(2);
             this.selectClientInfos.Name = "selectClientInfos";
             this.selectClientInfos.Size = new System.Drawing.Size(110, 38);
             this.selectClientInfos.TabIndex = 2;
@@ -76,8 +78,8 @@ namespace Photography_Shop
             // selectPhotoGrapherInfos
             // 
             this.selectPhotoGrapherInfos.BackColor = System.Drawing.Color.Transparent;
-            this.selectPhotoGrapherInfos.Location = new System.Drawing.Point(231, 325);
-            this.selectPhotoGrapherInfos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.selectPhotoGrapherInfos.Location = new System.Drawing.Point(318, 128);
+            this.selectPhotoGrapherInfos.Margin = new System.Windows.Forms.Padding(2);
             this.selectPhotoGrapherInfos.Name = "selectPhotoGrapherInfos";
             this.selectPhotoGrapherInfos.Size = new System.Drawing.Size(110, 43);
             this.selectPhotoGrapherInfos.TabIndex = 3;
@@ -93,14 +95,14 @@ namespace Photography_Shop
             this.label1.Location = new System.Drawing.Point(78, 46);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(579, 38);
+            this.label1.Size = new System.Drawing.Size(472, 32);
             this.label1.TabIndex = 4;
             this.label1.Text = "Welcome to YP7 photography shop";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(231, 395);
+            this.button1.Location = new System.Drawing.Point(318, 198);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 43);
@@ -109,6 +111,30 @@ namespace Photography_Shop
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // CrystalReservationReport
+            // 
+            this.CrystalReservationReport.BackColor = System.Drawing.Color.Transparent;
+            this.CrystalReservationReport.Location = new System.Drawing.Point(318, 262);
+            this.CrystalReservationReport.Margin = new System.Windows.Forms.Padding(2);
+            this.CrystalReservationReport.Name = "CrystalReservationReport";
+            this.CrystalReservationReport.Size = new System.Drawing.Size(110, 43);
+            this.CrystalReservationReport.TabIndex = 6;
+            this.CrystalReservationReport.Text = "Reservation Report";
+            this.CrystalReservationReport.UseVisualStyleBackColor = false;
+            this.CrystalReservationReport.Click += new System.EventHandler(this.CrystalReservationReport_Click);
+            // 
+            // ShiftsReport
+            // 
+            this.ShiftsReport.BackColor = System.Drawing.Color.Transparent;
+            this.ShiftsReport.Location = new System.Drawing.Point(238, 320);
+            this.ShiftsReport.Margin = new System.Windows.Forms.Padding(2);
+            this.ShiftsReport.Name = "ShiftsReport";
+            this.ShiftsReport.Size = new System.Drawing.Size(110, 43);
+            this.ShiftsReport.TabIndex = 7;
+            this.ShiftsReport.Text = "Shifts Report";
+            this.ShiftsReport.UseVisualStyleBackColor = false;
+            this.ShiftsReport.Click += new System.EventHandler(this.ShiftsReport_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,13 +142,15 @@ namespace Photography_Shop
             this.BackgroundImage = global::Photography_Shop.Properties.Resources.MakeReservationBackGround;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(586, 468);
+            this.Controls.Add(this.ShiftsReport);
+            this.Controls.Add(this.CrystalReservationReport);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.selectPhotoGrapherInfos);
             this.Controls.Add(this.selectClientInfos);
             this.Controls.Add(this.takeReservation);
             this.Controls.Add(this.MakeReservation);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Menu";
             this.Text = "Menu";
             this.TopMost = true;
@@ -140,5 +168,7 @@ namespace Photography_Shop
         private System.Windows.Forms.Button selectPhotoGrapherInfos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button CrystalReservationReport;
+        private System.Windows.Forms.Button ShiftsReport;
     }
 }

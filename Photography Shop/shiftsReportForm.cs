@@ -27,14 +27,13 @@ namespace crystalReportPhotography
             {
                 comboBox1.Items.Add(v.Value);
             }
-            textBox1.Enabled = false;
-            comboBox1.Enabled = false;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             CR.SetParameterValue(0, comboBox1.Text);
-            CR.SetParameterValue(1, textBox1.Text);
+            CR.SetParameterValue(1, "");
 
             crystalReportViewer1.ReportSource = CR;
         }
@@ -43,17 +42,17 @@ namespace crystalReportPhotography
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            textBox1.Text = "";
+           /* textBox1.Text = "";
             textBox1.Enabled = false;
-            comboBox1.Enabled = true;
+            comboBox1.Enabled = true;*/
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
-            comboBox1.Text = "";
+            /*comboBox1.Text = "";
             comboBox1.Enabled = false;
-            textBox1.Enabled = true;
+            textBox1.Enabled = true;*/
         }
 
         private void crystalReportViewer1_Load(object sender, EventArgs e)

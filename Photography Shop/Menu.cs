@@ -1,4 +1,5 @@
-﻿using System;
+﻿using crystalReportPhotography;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -60,6 +61,22 @@ namespace Photography_Shop
         private void Menu_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void CrystalReservationReport_Click(object sender, EventArgs e)
+        {
+            ClientsReservationReportForm f2 = new ClientsReservationReportForm();
+            Hide();
+            f2.ShowDialog();
+            Show();
+        }
+
+        private void ShiftsReport_Click(object sender, EventArgs e)
+        {
+            shiftsReportForm f2 = new shiftsReportForm();
+            Hide();
+            f2.ShowDialog();
+            Show();
         }
     }
 }
